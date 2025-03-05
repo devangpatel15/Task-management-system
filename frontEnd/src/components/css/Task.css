@@ -1,0 +1,84 @@
+.task-main {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+  margin-top: 1rem;
+}
+
+.task-container {
+  padding: 0.5rem;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 30rem;
+}
+
+.task-container h3 {
+  text-align: center;
+}
+
+.task-header h2 {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 2rem;
+}
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
+}
+
+.green {
+  color: green;
+}
+
+.mark-in-progress-complete-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.mark-in-progress-btn {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background-color: #20525d;
+  color: white;
+}
+
+.mark-in-progress-btn:hover {
+  color: black;
+  background-color: #e5e5e5;
+}
+
+.update-delete-btn {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.update-btn,
+.delete-btn {
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.update-btn {
+  background-color: #20525d;
+  color: white;
+}
+
+.update-btn:hover {
+  color: black;
+  background-color: #e5e5e5;
+}
+
+.delete-btn:hover {
+  background-color: #20525d;
+  color: white;
+}

@@ -1,0 +1,35 @@
+.common-register-login-button {
+  display: flex;
+  justify-content: center;
+  padding: 0.8rem;
+  gap: 1rem;
+}
+
+.common-child-button {
+  background-color: #3d6c76;
+  color: white;
+  border: 1px solid #1a3035;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+}
+
+.common-child-button:hover {
+  background-color: #1a3035;
+}
+
+.register-form {
+  background-color: #699da9;
+  color: white;
+}
+.login-form {
+  background-color: #699da9;
+  color: white;
+}
+
+.content input {
+  height: 1.5rem;
+}
+
+.content select {
+  height: 1.5rem;
+}

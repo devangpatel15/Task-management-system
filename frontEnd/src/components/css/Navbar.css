@@ -1,0 +1,16 @@
+.signup-login-button {
+  padding: 1rem 0;
+  background-color: #20525d;
+  display: flex;
+  justify-content: center;
+}
+
+.signup-login-button button {
+  padding: 0.5rem;
+  color: white;
+  border: none;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

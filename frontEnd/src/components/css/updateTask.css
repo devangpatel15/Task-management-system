@@ -1,0 +1,36 @@
+.update-task-container h3 {
+  text-align: center;
+  padding: 0.5rem;
+  background-color: #699da9;
+  margin: 0 30%;
+  color: white;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.updateTask-form {
+  background-color: #699da9;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 30%;
+  padding: 0.7rem;
+  gap: 0.1rem;
+}
+
+.updateTask-form input {
+  height: 1.5rem;
+}
+
+.updateTask-form button {
+  margin-top: 0.6rem;
+  background-color: #3d6c76;
+  border: 1px solid #1a3035;
+  color: white;
+  padding: 0.3rem 0.8rem;
+  border-radius: 5px;
+}
+
+.updateTask-form button:hover {
+  background-color: #1a3035;
+}
