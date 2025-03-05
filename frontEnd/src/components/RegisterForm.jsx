@@ -7,9 +7,9 @@ import axios from "axios";
 const RegisterForm = () => {
   const [registerData, setRegisterData] = useState({
     userName: "",
-    phoneNo: "",
+    mobileNo: "",
     countryCode: "",
-    email: "",
+    userEmail: "",
     password: "",
     gender: "",
     dob: "",
@@ -57,7 +57,7 @@ const RegisterForm = () => {
         <label>email:</label>
         <Input
           name="userEmail"
-          value={registerData.email}
+          value={registerData.userEmail}
           handleChange={handleChange}
         />
         <label>password:</label>
@@ -81,7 +81,7 @@ const RegisterForm = () => {
             <label>phoneNumber:</label>
             <Input
               name="mobileNo"
-              value={registerData.phoneNo}
+              value={registerData.mobileNo}
               handleChange={handleChange}
             />
           </div>

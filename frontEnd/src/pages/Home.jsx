@@ -42,9 +42,13 @@ const Home = () => {
   return (
     <>
       <div className="task-main">
-        {tasksData?.map((item) => (
-          <Task key={item._id} item={item} link="/viewTask" />
-        ))}
+        {tasksData.length > 0 ? (
+          tasksData?.map((item) => (
+            <Task key={item._id} item={item} link="/viewTask" />
+          ))
+        ) : (
+          <p>No tasks available.</p>
+        )}
       </div>
     </>
   );

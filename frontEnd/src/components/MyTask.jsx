@@ -36,7 +36,7 @@ const MyTask = ({ isLoggedIn }) => {
       {isLoggedIn ? (
         loading ? (
           <div className="loading-message">Loading tasks...</div>
-        ) : (
+        ) : taskData.length > 0 ? (
           <div className="task-main">
             {taskData.map((item, index) => (
               <Task
@@ -47,9 +47,11 @@ const MyTask = ({ isLoggedIn }) => {
               />
             ))}
           </div>
+        ) : (
+          <p>No task Assigned</p>
         )
       ) : (
-        <p>Please log in to view tasks.</p>
+        <p> log in to view tasks.</p>
       )}
     </div>
   );
